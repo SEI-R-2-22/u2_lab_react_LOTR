@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-header {
@@ -15,4 +16,47 @@
 
 img {
   height: 200px;
+  border: bisque 1px solid;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  width: 20vw;
+  padding: 10px;
+  margin: 10px;
+  border: rgb(53, 41, 41) 3px solid;
+
+  color: bisque;
+}
+
+#green {
+  background-color: rgb(50, 69, 49);
+}
+
+#red {
+  background-color: rgb(101, 48, 48);
+}
+
+#blue {
+  background-color: rgb(46, 47, 87);
+}
+
+#brown {
+  background-color: rgb(82, 59, 44);
+}
+
+#teal {
+  background-color: rgb(50, 87, 86);
+}
+
+#purple {
+  background-color: rgb(59, 42, 70);
 }
