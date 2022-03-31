@@ -49,7 +49,7 @@ Let's keep the JSX simple for now, and we'll make it more complex once we're sur
 
 - Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
 - In the `<h1>` and `<p>` tags add this text to start:
-```jsx
+```html
 <h1>Lord of the Rings: </h1>
 <p>Runtime: </p>
 ```
