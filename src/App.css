@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'hobbiton_brushhahobbitonbrush';
+  src: url('./fonts/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff2') format('woff2'),
+       url('./fonts/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -11,7 +19,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'hobbiton_brushhahobbitonbrush';
+  color: bisque; 
 }
 
 img {
