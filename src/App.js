@@ -1,6 +1,4 @@
-import React from 'react'
 import './App.css'
-import Movie from './components/Movie'
 import MovieList from './components/MovieList'
 
 const App = () => {
@@ -65,7 +63,6 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <h1>Lord of the Rings</h1>
-        <h6>A Lesson On "Quitting While You're Ahead"</h6>
       </header>
       <main>
         <MovieList data={data}/>

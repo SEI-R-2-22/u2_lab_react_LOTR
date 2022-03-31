@@ -1,11 +1,9 @@
-import React from 'react'
 import Movie from './Movie'
 
 const MovieList = (props) => {
-  console.log(props)
 
   return (
-    <div>
+    <div className="movie-list">
       <Movie movie={props.data[0]} />
       <Movie movie={props.data[1]} />
       <Movie movie={props.data[2]} />
